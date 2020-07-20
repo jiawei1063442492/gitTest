@@ -19,7 +19,7 @@ public class SearchController {
 
 	@RequestMapping("/navigation/search")
 	public List<Map> search() {
-		String condition = "平台";
+		String condition = "平";
 		return searchService.searchByCondition(condition);
 	}
 }
